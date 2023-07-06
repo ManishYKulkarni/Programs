@@ -1,0 +1,25 @@
+Push:
+
+git init
+
+git add <filename>
+
+git commit -m "message"
+
+git remote add origin <remote-url> (or) git remote set-url origin <remote-url>
+
+git push -u origin master
+
+
+
+pull:
+
+cd <folder-name>
+
+git status
+
+git remote add origin <remote-url> (or) git remote set-url origin <remote-url>
+
+git pull origin master
+
+git status
